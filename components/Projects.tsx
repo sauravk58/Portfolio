@@ -51,7 +51,7 @@ const projects = [
   title: "RiderConnect (Real-Time Group Tracking)",
   description:
     "A full-stack real-time location tracking system for groups with distance-based alerts, live chat, unique avatars, and network loss handling. Built for use cases like group travel or event coordination. Integrated Clerk for authentication and Socket.IO for real-time communication.",
-  image: "/riderconnect.png?height=200&width=300",
+  image: "/riderconnect.jpeg?height=200&width=300",
   techStack: ["Next.js", "TypeScript", "TailwindCSS", "ShadCN", "Socket.IO", "Clerk", "MongoDB", "Node.js"],
   github: "https://github.com/sauravk58/riderconnect",
   demo: "https://riderconnect.vercel.app/"
