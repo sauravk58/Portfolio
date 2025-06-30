@@ -54,7 +54,7 @@ const projects = [
   image: "/riderconnect.jpeg?height=200&width=300",
   techStack: ["Next.js", "TypeScript", "TailwindCSS", "ShadCN", "Socket.IO", "Clerk", "MongoDB", "Node.js"],
   github: "https://github.com/sauravk58/riderconnect",
-  demo: "https://riderconnect.vercel.app/"
+  demo: "https://riderconnect.in/"
 },
 ]
 
