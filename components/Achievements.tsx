@@ -32,7 +32,7 @@ const achievements = [
   {
     icon: BookOpen,
     title: "Coding Platforms",
-    description: "-Solved 300+ questions on LeetCode and 200+ on CodeChef. demonstrating strong problem-solving skills.",
+    description: "-Achieved a 1834 rating with 500+ problems solved on LeetCode, and earned a 3-star rating on CodeChef",
   },
 ]
 
