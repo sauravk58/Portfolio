@@ -103,7 +103,7 @@ export default function Hero() {
                   asChild
                 >
                   <a
-                    href="https://drive.google.com/file/d/1-TCMkw_MnQBlweF01eMigld5E5fsSYM9/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1fUWtgjUV1moEBm9oUvXeYrfKG2nUuvli/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
