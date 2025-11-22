@@ -17,6 +17,7 @@ const skills = {
     { name: "Next.js 15", level: 90 },
     { name: "Node.js", level: 85 },
     { name: "Express", level: 85 },
+    { name: "NestJs", level: 90 },
     { name: "Tailwind CSS", level: 95 },
     { name: "RESTful APIs", level: 90 },
   ],
