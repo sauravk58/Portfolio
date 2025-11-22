@@ -12,9 +12,9 @@ export default function About() {
         </CardHeader>
         <CardContent>
           <p className="text-gray-300 leading-relaxed mb-4">
-          I am currently a 3rd-year undergraduate student at IIIT Nagpur, passionate about competitive programming and problem-solving. I have solid experience with data structures and algorithms in C++ and have also explored various aspects of web development. 
-          With expertise in the MERN stack, I enjoy tackling complex problems and turning innovative ideas into reality. My
-          journey in tech has been driven by curiosity and a constant desire to learn and grow.
+          I’m Saurav Kumar, a final-year B.Tech student at IIIT Nagpur, with a strong focus on full-stack development. 
+            Over the past year, I’ve built multiple real-time and scalable web applications, handling both frontend logic and backend architecture. 
+            I am actively seeking an internship opportunity in SDE, Full Stack, MERN, Frontend, or Backend development, where I can contribute my skills and grow through impactful work.
 
           </p>
           {/* <p className="text-gray-300 leading-relaxed mb-4">
