@@ -13,44 +13,64 @@ export default function Experience() {
         </CardHeader>
         <CardContent>
           <ul className="space-y-8">
+            {/* Software Engineering Intern */}
             <li className="relative pl-6 pb-8 border-l-2 border-gray-700">
               <div className="absolute left-[-5px] top-0 w-3 h-3 bg-pink-500 rounded-full"></div>
-              <h3 className="font-semibold text-xl text-gray-200">Senior Developer - Tech Corp</h3>
-              <p className="text-sm text-gray-400 mb-2">2020 - Present</p>
-              <p className="text-gray-300 mb-4">Led development of scalable web applications using MERN stack.</p>
+              <h3 className="font-semibold text-xl text-gray-200">
+                Software Engineering Intern (Founder&apos;s Office) - GoBasera
+              </h3>
+              <p className="text-sm text-gray-400 mb-2">Nov 2025 - Present · Remote</p>
+              <ul className="list-disc ml-5 text-gray-300 mb-4 space-y-2">
+                <li>
+                  Collaborated directly with the <strong>Founder’s Office</strong> to design and develop GoBasera’s
+                  society management SaaS platform using{" "}
+                  <strong>React, NestJS, and PostgreSQL</strong>, focusing on scalability and user experience.
+                </li>
+                <li>
+                  Implemented <strong>role-based authentication</strong> (Firebase OTP, password login),{" "}
+                  <strong>online payment integration</strong> (Razorpay/UPI), and multi-step registration flows,
+                  contributing to core product functionality.
+                </li>
+                <li>
+                  Built and deployed full-stack features with <strong>CI/CD pipelines</strong> on GCP, ensuring smooth
+                  delivery and <strong>high code quality</strong> in an agile, startup-style environment.
+                </li>
+              </ul>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="secondary" className="bg-gray-700 text-gray-200">
-                  React
-                </Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-200">
-                  Node.js
-                </Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-200">
-                  MongoDB
-                </Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-200">
-                  Express
-                </Badge>
+                <Badge className="bg-gray-700 text-gray-200">React</Badge>
+                <Badge className="bg-gray-700 text-gray-200">NestJS</Badge>
+                <Badge className="bg-gray-700 text-gray-200">PostgreSQL</Badge>
+                <Badge className="bg-gray-700 text-gray-200">GCP</Badge>
+                <Badge className="bg-gray-700 text-gray-200">Firebase</Badge>
+                <Badge className="bg-gray-700 text-gray-200">Razorpay</Badge>
               </div>
             </li>
+
+            {/* Frontend Developer - Freelance */}
             <li className="relative pl-6 border-l-2 border-gray-700">
               <div className="absolute left-[-5px] top-0 w-3 h-3 bg-purple-500 rounded-full"></div>
-              <h3 className="font-semibold text-xl text-gray-200">Full Stack Developer - Web Solutions Inc</h3>
-              <p className="text-sm text-gray-400 mb-2">2018 - 2020</p>
-              <p className="text-gray-300 mb-4">Developed and maintained client websites and internal tools.</p>
+              <h3 className="font-semibold text-xl text-gray-200">
+                Frontend Developer | Freelance - Outlier
+              </h3>
+              <p className="text-sm text-gray-400 mb-2">May 2025 - Present · Remote</p>
+              <ul className="list-disc ml-5 text-gray-300 mb-4 space-y-2">
+                <li>
+                  Built and optimized responsive web applications using{" "}
+                  <strong>React.js, TypeScript, Next.js, Tailwind CSS,</strong> and core{" "}
+                  <strong>HTML/CSS/JavaScript</strong>.
+                </li>
+                <li>
+                  Completed 8+ tasks focused on enhancing <strong>LLM (Large Language Model)</strong> performance through
+                  UI improvements and <strong>structured prompt design</strong>.
+                </li>
+              </ul>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="secondary" className="bg-gray-700 text-gray-200">
-                  JavaScript
-                </Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-200">
-                  PHP
-                </Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-200">
-                  MySQL
-                </Badge>
-                <Badge variant="secondary" className="bg-gray-700 text-gray-200">
-                  Laravel
-                </Badge>
+                <Badge className="bg-gray-700 text-gray-200">React.js</Badge>
+                <Badge className="bg-gray-700 text-gray-200">TypeScript</Badge>
+                <Badge className="bg-gray-700 text-gray-200">Next.js</Badge>
+                <Badge className="bg-gray-700 text-gray-200">Tailwind CSS</Badge>
+                <Badge className="bg-gray-700 text-gray-200">HTML</Badge>
+                <Badge className="bg-gray-700 text-gray-200">JavaScript</Badge>
               </div>
             </li>
           </ul>
@@ -59,4 +79,3 @@ export default function Experience() {
     </section>
   )
 }
-
