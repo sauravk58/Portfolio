@@ -2,45 +2,62 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
 const skills = {
-  Languages: [
-    { name: "C++", level: 90 },
+  "Programming Languages": [
     { name: "C", level: 80 },
-    { name: "Python", level: 90 },
+    { name: "C++", level: 90 },
     { name: "Java", level: 85 },
-    { name: "JavaScript", level: 95 },
+    { name: "JavaScript (ES6+)", level: 95 },
     { name: "TypeScript", level: 90 },
-  ],
-  "Web Technologies": [
-    { name: "HTML/CSS", level: 95 },
-    { name: "React.js", level: 95 },
-    { name: "Next.js", level: 90 },
-    { name: "Node.js", level: 85 },
-    { name: "Express.js", level: 85 },
-  ],
-  Databases: [
-    { name: "MySQL", level: 80 },
+    { name: "Python", level: 90 },
     { name: "SQL", level: 85 },
-    { name: "MongoDB", level: 80 },
+    { name: "HTML/CSS", level: 95 },
   ],
-  "Tools & Others": [
+  "Frameworks and Libraries": [
+    { name: "React.js (v18+)", level: 95 },
+    { name: "Next.js 15", level: 90 },
+    { name: "Node.js", level: 85 },
+    { name: "Express", level: 85 },
+    { name: "Tailwind CSS", level: 95 },
+    { name: "RESTful APIs", level: 90 },
+  ],
+  "Databases / Development Tools": [
+    { name: "MongoDB", level: 85 },
+    { name: "Supabase", level: 80 },
+    { name: "MySQL", level: 85 },
     { name: "Git", level: 90 },
     { name: "GitHub", level: 90 },
-    { name: "Postman API", level: 85 },
-    { name: "Figma", level: 75 },
+    { name: "Postman", level: 85 },
+    { name: "Figma", level: 80 },
+    { name: "VS Code", level: 90 },
+    { name: "Linux", level: 80 },
+  ],
+  "Generative AI and Developer Tools": [
+    { name: "ChatGPT API", level: 85 },
+    { name: "GitHub Copilot", level: 85 },
+    { name: "Vercel v0", level: 80 },
+    { name: "Claude", level: 75 },
+    { name: "Cursor", level: 75 },
+  ],
+  Coursework: [
+    { name: "Data Structures and Algorithms (DSA)", level: 90 },
     { name: "Object-Oriented Programming (OOP)", level: 90 },
+    { name: "Verilog HDL", level: 70 },
   ],
 }
 
 export default function Skills() {
   return (
     <section id="skills" className="relative py-16 px-4 sm:px-6 lg:px-8">
+      {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 transform rotate-1 rounded-3xl"></div>
+
       <Card className="relative bg-gray-800/90 border-gray-700 backdrop-blur-md overflow-hidden shadow-xl">
         <CardHeader>
           <CardTitle className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
             Skills
           </CardTitle>
         </CardHeader>
+
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {Object.entries(skills).map(([category, categorySkills]) => (
@@ -60,7 +77,7 @@ export default function Skills() {
                         className="bg-gray-700 text-gray-200 hover:bg-gray-600 transition-colors duration-200"
                       >
                         {skill.name}
-                        <span className="ml-1 text-xs opacity-75">({skill.level}%)</span>
+                        <span className="ml-1 text-xs opacity-70">({skill.level}%)</span>
                       </Badge>
                     ))}
                   </div>
@@ -73,4 +90,3 @@ export default function Skills() {
     </section>
   )
 }
-
