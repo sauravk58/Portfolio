@@ -23,7 +23,7 @@ export default function Contact() {
                   href="mailto:sauravkushwaha666@gmail.com"
                   className="text-gray-200 hover:text-pink-500 transition-colors"
                 >
-                  sauravkushwaha666@gmail.com
+                  sauravkushwaha777@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-3">
